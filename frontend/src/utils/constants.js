@@ -1,0 +1,33 @@
+export const ROLES = {
+  LANDLORD: 'LANDLORD',
+  TENANT: 'TENANT',
+};
+
+export const MAINTENANCE_STATUS = {
+  NEW: 'NEW',
+  IN_PROGRESS: 'IN_PROGRESS',
+  COMPLETED: 'COMPLETED',
+  CANCELLED: 'CANCELLED',
+};
+
+export const PRIORITY = {
+  LOW: 'LOW',
+  MEDIUM: 'MEDIUM',
+  HIGH: 'HIGH',
+  URGENT: 'URGENT',
+};
+
+export const PAYMENT_TYPE = {
+  RENT: 'RENT',
+  LATE_FEE: 'LATE_FEE',
+  DEPOSIT: 'DEPOSIT',
+  REFUND: 'REFUND',
+  OTHER: 'OTHER',
+};
+
+export const PAYMENT_STATUS = {
+  PENDING: 'PENDING',
+  COMPLETED: 'COMPLETED',
+  FAILED: 'FAILED',
+  REFUNDED: 'REFUNDED',
+};
